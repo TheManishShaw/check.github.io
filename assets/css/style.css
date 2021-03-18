@@ -4,7 +4,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #4444449f;
 }
 
 a {
@@ -73,7 +73,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-    background: #868484;
+    background: #949393b6;
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
@@ -505,105 +505,6 @@ section {
     transform: skewY(-3deg);
 }
 
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-
-.breadcrumbs {
-    padding: 15px 0;
-    background: #3f0303;
-    min-height: 40px;
-    margin-top: 82px;
-    color: #fff;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        margin-top: 57px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 28px;
-    font-weight: 500;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol a {
-    color: #aaaaaa;
-}
-
-.breadcrumbs ol a:hover {
-    color: #fff;
-    transition: 0.3s;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #300405;
-    content: "/";
-}
-
-
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-
-.clients .owl-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.clients .owl-item img {
-    width: 60%;
-    opacity: 0.5;
-    transition: 0.3s;
-    -webkit-filter: grayscale(100);
-    filter: grayscale(100);
-}
-
-.clients .owl-item img:hover {
-    opacity: 1;
-    -webkit-filter: none;
-    filter: none;
-}
-
-.clients .owl-nav,
-.clients .owl-dots {
-    margin-top: 5px;
-    text-align: center;
-}
-
-.clients .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ddd !important;
-}
-
-.clients .owl-dot.active {
-    background-color: #300203 !important;
-}
-
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -623,54 +524,17 @@ section {
     margin-bottom: 30px;
 }
 
-.about .content p {
-    margin-bottom: 30px;
-}
-
-.about .content .about-btn {
-    padding: 8px 30px 9px 30px;
-    color: #fff;
-    border-radius: 50px;
-    transition: 0.3s;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 13px;
-    display: inline-flex;
-    align-items: center;
-    border: 2px solid #360203;
-}
-
-.about .content .about-btn i {
-    font-size: 16px;
-    padding-left: 5px;
-}
-
-.about .content .about-btn:hover {
-    background: #2b0102;
-    background: #3f0102;
-}
-
-.about .icon-boxes .icon-box {
-    margin-top: 30px;
-}
-
-.about .icon-boxes .icon-box i {
-    font-size: 40px;
-    color: #3a0506;
-    margin-bottom: 10px;
-}
-
-.about .icon-boxes .icon-box h4 {
+.about .content p{
     font-size: 20px;
-    font-weight: 700;
-    margin: 0 0 10px 0;
+    
 }
 
-.about .icon-boxes .icon-box p {
-    font-size: 15px;
-    color: #848484;
-}
 
+
+.about .icon-boxes img{
+    width: 100%;
+    height: 350px;
+}
 @media (max-width: 1200px) {
     .about .content {
         padding-right: 0;
@@ -902,7 +766,7 @@ section {
     margin: 0 10px 0 0;
 }
 .testimonials .testimonial-item p{
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -939,7 +803,7 @@ section {
 
 .testimonials .testimonial-item p {
     font-style: italic;
-    margin: 30px auto 15px auto;
+    margin: 20px auto 15px auto;
 }
 
 .testimonials .owl-nav,
@@ -997,18 +861,19 @@ section {
 .team .member .social {
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 12%;
     right: 0;
     opacity: 0;
-    background: #460203;
+    margin-top: -50px;
+    background: #460203e3;
     transition: ease-in-out 0.3s;
     text-align: center;
-    transform: rotateY(180deg);
+    
 }
 
 .team .member .member-info1 {
     text-align: center;
-    padding-top: 5px;
+    
 }
 
 .team .member .member-info1 a {
@@ -1023,12 +888,13 @@ section {
     display: inline-block;
     text-align: center;
     align-items: center;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.10s;
 }
 
 .team .member .member-info1 a:hover {
     background: #460203;
     color: rgb(255, 255, 255);
+    
 }
 
 .team .member .member-info1 h4 {
@@ -1038,9 +904,12 @@ section {
     color: #050505;
     text-align: center;}
 
+
+
 .team .member .member-info1 span {
+    
     display: block;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     color: #050505;
     text-align: center;
@@ -1071,9 +940,9 @@ section {
 
 .team .member .social .member-info span {
     display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e9e9e9;
 }
 
 .team .member .social .member-info p {
@@ -1087,7 +956,90 @@ section {
     transform: rotateY(0deg);
     opacity: 1;
     bottom: 0;
+    transition: 1s;
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+
+
+
+
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------
