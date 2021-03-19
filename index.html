@@ -16,6 +16,12 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -333,7 +339,7 @@
                     <div class="col-md-6 mt-4 mt-md-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <i class="icofont-image"></i>
-                            <h4><a data-toggle="tabs-1" href="#tabs">Content Development</a></h4>
+                            <h4><a  href="#tab-1">Content Development</a></h4>
                             <p>Content quality and accuracy is of the utmost priority, regardless of the format or manner of delivery. Our dedicated writers and editors are, ﬁrst and foremost, educators, and bring years of extensive experience in educational
                                 publishing.
                             </p>
@@ -343,7 +349,7 @@
                     <div class="col-md-6 mt-4 mt-md-0">
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                             <i class="icofont-image"></i>
-                            <h4><a href="#tabs">Digital Learning</a></h4>
+                            <h4><a  href="#tab-2">Digital Learning</a></h4>
                             <p>Digital learning resources are being implemented in today’s educational products. Our team can help integrate these resources into your oﬀerings!
                             </p>
                         </div>
@@ -367,9 +373,9 @@
                   </div>
 					
               
-                <div class="col-md-6 mt-4 mt-md-0">
+                <div class="col-md-12 mt-4 mt-md-0">
                   <div class="icon-box" data-aos="fade-up" data-aos-delay="600"> <i class="icofont-chart-bar-graph"></i>
-                    <h4><a href="#tabs">Design and Production</a></h4>
+                    <h4><a data-toggle="tab" href="#tab-2">Design and Production</a></h4>
                     <p>While Pagetech Solutions has the experience and resources to help with cutting-edge digital projects, we also got you covered on the print side, from template design to printer ﬁles. Our team is proﬁcient in all aspects of
                       prepress textbook production and graphic design. We have the artists, the experience, and the technology to create everything from the simplest medical art square to the most complicated full-screen illustrations.</p>
                   </div>
@@ -382,39 +388,58 @@
         <!-- End Services Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h1>Testimonials</h1>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-xl-10">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-item"> <p>
-                                “The team at Pagetech Solutons helped us with a very unusual project that required a high level of skill and a comprehensive skill set. They were professional and fast with their delivery. Their work was of the highest quality and
-                                    their prices were reasonable. We could not have created the final product without their excellent assistance. The author and publisher were very pleased with their work.<br><center> ”Rose Kernan, President, RPK Editorial</center></p>      
+        <section id="testimonial" class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Testimonial</h2>
+                    </div>
+                    <div class="col-12">
+                        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Slide Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide 1 -->
+                                <div class="carousel-item active">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="assets/img/pro.png" alt=""></div>
+                                        <h3>Rose Kernan <br><span>President, RPK Editorial</span></h3>
+                                        <p class="col-md-12" style="padding-bottom: 24px;">“The team at Pagetech Solutons helped us with a very unusual project that required a high level of skill and a comprehensive skill set. They were professional and fast with their delivery. Their work was of the highest quality and
+                                            their prices were reasonable. We could not have created the final product without their excellent assistance. The author and publisher were very pleased with their work".</p>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="assets/img/pro.png" alt=""></div>
+                                        <h3>Sethurajan Elanthamizhan <br><span>Sr Manager - Operations, TNQ Technologies Pvt Ltd</span></h3>
+                                        <p class="col-md-12 ">Mr.Rajib Sarkar who runs this company is a great support to our operations. My production runs have never delayed because of him. I have always found Rajib
+                                            to be honest, hardworking, conscientious always showing a high level of commitment towards quality and schedule. He has a great length of knowledge and experience when it comes to his field. That is the reason his
+                                            clients are very confident to work with him. I am sure he is the one you are looking for. I am highly aware of his abilities. I would like to recommend you to use their services too.</p>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                
+                                <!-- Slider pre and next arrow -->
+                                <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
+                                <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
+                                <i class="fas fa-chevron-right"></i>
+                                </a>
                             </div>
                         </div>
-                          
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">                                  
-                                    <p>
-                                    	<em>Mr. Rajib Sarkar who runs this company is a great support to our operations. My production runs have never delayed because of him. I have always found Rajib
-                                        to be honest, hardworking, conscientious always showing a high level of commitment towards quality and schedule. He has a great length of knowledge and experience when it comes to his field. That is the reason his
-                                        clients are very confident to work with him. I am sure he is the one you are looking for. I am highly aware of his abilities. I would like to recommend you to use their services too.</em>
-                                    <center> Sethurajan Elanthamizhan, 
-									Sr Manager - Operations, TNQ Technologies Pvt Ltd</center> </p>
-                                </div>
-                            </div>
-                  </div>
-              </div>
-          </div>
-
-          
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- End Testimonials Section -->
+
+
 
         <!-- ======= Team Section ======= -->
         <section id="team" class="team section-bg">
@@ -518,7 +543,7 @@
                             </div>
                             <div class="member-info1">
                                 <h4 style="font-family:serif; padding-top:5px; font-weight: 900;">Dr Surjo Ghosh</h4>
-                                <span>Member-Advisory Board</span>
+                                <span>Member - Advisory Board</span>
                                 
                                 <a href="https://www.linkedin.com/in/shurjo/?fbclid=IwAR0XX2wWt94Ffj06y9709RAvkzZ9AsOdTqqWwplM126pMpXa8paCPTYMowc"><i class="icofont-linkedin"></i></a>
                             </div>
@@ -538,7 +563,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Contact</h2>
+                    <h1>Contact</h1>
                   
                 </div>
 
@@ -551,10 +576,10 @@
                             <div class="col-md-6">
                                 <div class="info-box">
                                     <i class="bx bx-map"></i>
-                                    <h3>Our Address</h3>
+                                    
                                     <h4>Production Office</h4>
-                                    <p>Capital Market (5th Floor) , 75 Pioneer Park, Barakpur Road Barasat, Kolkata 700124, India</p>
-                                    <h3>Email Us</h3>
+                                    <p>Capital Market (5th Floor), 75 Pioneer Park, Barakpur Road Barasat,<br> Kolkata 700124, India</p>
+                                   
                                     <p style="padding-bottom: 40px;" ><a href="mailto:info@pagetechsolutions.com">info@pagetechsolutions.com</a> </p>	 
                               </div>
                             </div>
@@ -563,8 +588,8 @@
                                     <i class="bx bx-map"></i>
                                     <h3>Our Address</h3>
 									 <h4>Sales Office</h4>
-                                    <p>PO Box 72 Horatio SC 29062</p>
-                                    <h3>Email Us</h3>
+                                    <p>PO Box 72 Horatio <br>SC 29062, USA</p>
+                                    
                                     <p style="padding-bottom: 90px;" ><a href="mailto:hyacinth@pagetechsolutions.com">hyacinth@pagetechsolutions.com </a></p>
                               </div>
                             </div>
@@ -635,6 +660,12 @@
         </div>
     </footer>
     <!-- End Footer -->
+    <script type="text/javascript">
+        $( document ).ready(function() {
+
+        $('#tabs').tabs();    
+        });
+    </script>
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
