@@ -397,14 +397,14 @@ h6 {
 }
 
 #hero h1 {
-    margin: 0;
+    margin-top: -50px;
     font-size: 48px;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #hero h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px 0 0 0;
     font-size: 24px;
 }
@@ -739,7 +739,7 @@ section {
 .services .icon-box p {
     margin-bottom: -2px;
     margin-left: 70px;
-    line-height: 15px;
+    line-height: 25px;
     font-size: 14px;
 }
 
@@ -754,17 +754,11 @@ color: #444444;
     padding: 20px 0 30px 0;
     border-radius: 30px;
 }
-.client-img {
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border: 2px solid  #300202; 
-    margin: 0px auto 20px;
-    border-radius: 100%;
-}
-.carousel-content {
 
+.carousel-content {
+    font-size: 20px;
     padding: 50px 0px;
+    font-weight: 400;
 }
 .carousel-content h3 span {
     font-size: 17px;
@@ -772,9 +766,7 @@ color: #444444;
     color: #300202;
     text-transform: uppercase;
 }
-.client-img img {
-    width: 100%;
-}
+
 #testimonial {
     text-align: center;
     padding: 40px 0px;
