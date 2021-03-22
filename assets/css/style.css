@@ -1,4 +1,5 @@
-0/*--------------------------------------------------------------
+0
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
@@ -103,7 +104,7 @@ h6 {
 }
 
 #header .logo img {
-     max-height: 60px;
+    max-height: 60px;
     width: 60px;
 }
 
@@ -397,14 +398,14 @@ h6 {
 }
 
 #hero h1 {
-    margin-top: -50px;
+    margin-top: -350px;
     font-size: 48px;
     font-weight: 700;
-    color: rgb(255, 255, 255);
+    color: #300202;
 }
 
 #hero h2 {
-    color: rgb(255, 255, 255);
+    color: #300202;
     margin: 10px 0 0 0;
     font-size: 24px;
 }
@@ -506,6 +507,7 @@ section {
     transform: skewY(-3deg);
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -525,17 +527,15 @@ section {
     margin-bottom: 30px;
 }
 
-.about .content p{
+.about .content p {
     font-size: 20px;
-    
 }
 
-
-
-.about .icon-boxes img{
+.about .icon-boxes img {
     width: 100%;
     height: 350px;
 }
+
 @media (max-width: 1200px) {
     .about .content {
         padding-right: 0;
@@ -621,16 +621,17 @@ section {
 
 .tabs .nav-link h4 {
     font-size: 18px;
-    
 }
-.tabs .nav-link{
+
+.tabs .nav-link {
     background: #300202;
     color: #fff;
     border-radius: 10px;
     border-color: #f0e9ea;
 }
+
 .tabs .nav-link:hover {
-    background:transparent;
+    background: transparent;
     color: #300202;
     border: 2px solid;
 }
@@ -686,7 +687,7 @@ section {
     margin-bottom: 0;
 }
 
-.tabs img{
+.tabs img {
     width: 1000px;
     height: 400px;
     padding-top: 40px;
@@ -698,7 +699,6 @@ section {
 --------------------------------------------------------------*/
 
 .services .icon-box {
-    
     margin-bottom: 20px;
     padding: 30px;
     border-radius: 6px;
@@ -747,8 +747,9 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-#testimonialCarousel  {
-color: #444444;
+
+#testimonialCarousel {
+    color: #444444;
     text-align: center;
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
     padding: 20px 0 30px 0;
@@ -760,6 +761,7 @@ color: #444444;
     padding: 50px 0px;
     font-weight: 400;
 }
+
 .carousel-content h3 span {
     font-size: 17px;
     font-weight: normal;
@@ -772,17 +774,17 @@ color: #444444;
     padding: 40px 0px;
     color: rgb(0, 0, 0);
 }
+
 #testimonial .carousel-control-prev,
 #testimonial .carousel-control-next {
     font-size: 36px;
 }
+
 #testimonial h2 {
     font-size: 40px;
     padding-bottom: 20px;
     display: inline-block;
 }
-
-
 
 
 /*--------------------------------------------------------------
@@ -813,14 +815,10 @@ color: #444444;
     transform: scale(0);
     transition: .3s ease;
     text-align: center;
-
-
-    
 }
 
 .team .member .member-info1 {
     text-align: center;
-    
 }
 
 .team .member .member-info1 a {
@@ -841,7 +839,6 @@ color: #444444;
 .team .member .member-info1 a:hover {
     background: #460203;
     color: rgb(255, 255, 255);
-    
 }
 
 .team .member .member-info1 h4 {
@@ -849,12 +846,10 @@ color: #444444;
     font-size: 18px;
     font-weight: 400;
     color: #050505;
-    text-align: center;}
-
-
+    text-align: center;
+}
 
 .team .member .member-info1 span {
-    
     display: block;
     font-size: 15px;
     font-weight: 400;
@@ -903,37 +898,20 @@ color: #444444;
     transform: scale(1);
     opacity: 1;
     bottom: 0;
-   
-    
-    
-}
-.team .member.social 
-{
-    
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #008CBA;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        transform: scale(0);
-        transition: .3s ease;
-     
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.team .member.social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
 
 .image-flip:hover .backside,
 .image-flip.hover .backside {
@@ -944,11 +922,6 @@ color: #444444;
     transform: rotateY(0deg);
     border-radius: .25rem;
 }
-
-
-
-
-
 
 .backside {
     position: absolute;
@@ -982,25 +955,6 @@ color: #444444;
     transition: 1s;
     transform-style: preserve-3d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -1145,9 +1099,6 @@ color: #444444;
 }
 
 
-
-
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1161,8 +1112,7 @@ color: #444444;
 #footer .footer-top {
     padding: 40px 0 30px 0;
     background: #310303;
-     text-align: center;
-    
+    text-align: center;
 }
 
 #footer .footer-top .footer-contact {
